@@ -1,0 +1,150 @@
+<?php
+session_start();
+include "conn.php"
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>My Portfolio MB</title>
+</head>
+<body>
+    <div class="menu-bg" id="index">
+        <div class="menubar">
+            <div class="container">
+                <div class="logo">
+                    <a href="#index"><h1>Bli<span>Dev</span></h1></a>
+                </div>
+                <ul class="menu">
+                    <li class="Home">
+                        <a href="#index">HOME</a>
+                    </li>
+                    <li>
+                        <a href="#myskill">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="#myphoto">PHOTOS</a>
+                    </li>
+                    <li>
+                        <a href="#contactme">CONTACT</a>
+                    </li>
+                    
+                </ul> 
+            </div>
+        </div>
+        <dv class="header">
+            <div class="container">
+                <div class="header_area">
+                    <h1>C R E A T I V E</h1>
+                    <h2>D  E  V  E  L  O  P  E  R</h2>
+                    <p>SENSIBLE TO FRONTEND</p>
+                    <a href="#myservice">Learn More</a>
+                </div>
+            </div>
+        </dv>
+    </div>
+
+    <div class="clareboth"></div>
+
+    <section class="services" id="myservice">
+            <h1>MY SERVICES</h1>
+        <div class="container">
+            <div class="services_con">
+                <div class="services_column">
+                    <h2>DESIGNER</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et quis necessitatibus sit iste, quo autem! Eligendi assumenda doloremque ipsum inventore eveniet quia saepe mollitia? Ex commodi alias error nesciunt.</p>
+                </div>
+
+                <div class="services_column">
+                    <h2>WEB DEVELOPER</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et quis necessitatibus sit iste, quo autem! Eligendi assumenda doloremque ipsum inventore eveniet quia saepe mollitia? Ex commodi alias error nesciunt.</p>
+                </div>
+
+                <div class="services_column">
+                    <h2>HTML/CSS</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis et quis necessitatibus sit iste, quo autem! Eligendi assumenda doloremque ipsum inventore eveniet quia saepe mollitia? Ex commodi alias error nesciunt.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clareboth"></div>
+
+    <section class="name">
+            <div class="container">
+                <div class="name_area">
+                        <img src="img/profile.png" alt="" width="190px" height="190px">
+                    <div class="name_text">
+                        <h1>HI, MY NAME  IS BLUE</h1><br>
+                        <p>I'M 16 YEARS OLD AND THIS IS MY PORTFOLIO.</p><br>
+                        <p class="text-gray">MY REAL NAME THITIVAT CHOOSUP</p><br>
+                        <p class="text-gray">I'M STUDYING AT EASTERN COLLEGE OF TECHNOLOGY (E.TECH)</p>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <div class="clareboth"></div>
+
+    <section class="skillbars" id="myskill">
+        <div class="container">
+            <img src="img/img1.png" alt="">
+            <div class="skillbar_text">
+                <h1>I  AM  A  FRONT-END  DEVELOPER</h1>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum, ad maxime, esse debitis iusto.</h2>
+                <p>HTML</p>
+                    <div class="skillbar_con">
+                    <div class="skills html">70%</div>
+                    </div>
+
+                <p>CSS</p>
+                    <div class="skillbar_con">
+                    <div class="skills css">80%</div>
+                    </div>
+
+                <p>JavaScript</p>
+                    <div class="skillbar_con">
+                    <div class="skills js">10%</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="clareboth"></div>
+
+    <section class="img-grid">
+        <div class="container">
+            <div class="header-grid" id="myphoto">
+                <h1>MY PHOTOS</h1>
+                <p>Click on the buttons to change the grid view.</p>
+				
+                <iframe src="img-grid.php" frameborder="0" width="100%" height="950px">
+				</iframe>
+            </div>
+        </div>
+    </section>
+
+    <?php
+    include ("contact.php");
+    ?>
+
+    <div class="footer">
+        <div class="footer_icon">
+        <a href="https://www.instagram.com/blue_thitivat/?hl=en"><i class="bi bi-instagram"></i></a>
+        <a href="https://web.facebook.com/profile.php?id=100070209624752"><i class="bi bi-facebook"></i></a>
+    </div>
+        <div class="container">
+        <div class="footer_text">
+            <p class="copyright">BilDEV Company © 2022</p>
+        </div>
+    </div>
+    </div>
+</div>
+</body>
+</html>
+
