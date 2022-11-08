@@ -34,6 +34,7 @@ html {
     margin-left: 60px;
     font-size: 35px;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
 .menubar .logo span{
     color: #989898;
@@ -78,7 +79,6 @@ html {
     margin: 0 auto;
     text-align: center;
     width: 800px;
-    transition: all 3s ease;
 }
 .header_area h1{
     font-size: 90px;
